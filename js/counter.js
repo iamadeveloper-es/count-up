@@ -1,0 +1,1 @@
+"use strict";var counters=document.querySelectorAll(".numero"),speed=200;counters.forEach(function(u){!function e(){var t=+u.getAttribute("data-target"),n=+u.innerText,r=t/speed;n<t?(u.innerText=n+r,setTimeout(e,1)):u.innerText=t}()});
